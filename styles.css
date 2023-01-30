@@ -29,7 +29,7 @@ body {
 .nav > .nav-links {
   display: inline;
   float: right;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .nav > .nav-links > a {
@@ -54,7 +54,7 @@ body {
 
 .card {
 	padding: 20px;
-	font-size: 30px;
+	font-size: 28px;
 	font-family: sans-serif;
 	color: whitesmoke;
 }
