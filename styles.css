@@ -6,13 +6,26 @@ body {
   margin: 0px;
   font-family: 'segoe ui';
   background-image: url('img/background.png');
-  background-size:cover
+    background-size: 400% 400%;
+    animation: gradient 66s ease infinite;
+  }
+  
+  @keyframes gradient {
+  0% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .nav {
   height: 50px;
   width: 100%;
-  background-color: #CBC3E3;
+  background-color: rgba(230, 230, 250, 0.4);
   position: relative;
 }
 
@@ -54,10 +67,11 @@ body {
 }
 
 .card {
-	padding: 20px;
-	font-size: 28px;
 	font-family: sans-serif;
+  text-align: center;
 	color: whitesmoke;
+	font-size: 28px;
+  padding: 20px;
 }
 
 .headshot {
